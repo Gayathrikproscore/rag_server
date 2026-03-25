@@ -15,12 +15,18 @@ python-dotenv = ">=1.2.1,<2.0.0"
 clerk-backend-api = ">=4.0.0,<5.0.0"
 boto3 = ">=1.40.74,<2.0.0"
 celery = ">=5.5.3,<6.0.0"
-langchain = "0.3.27"
-langchain-community = "0.3.27"
-langchain-openai = "0.3.28"
+langchain = "1.0.8"
+langchain-community = "0.4.1"
+langchain-openai = "1.0.3"
 unstructured = {version = "0.18.11", extras = ["all-docs"]}
 scrapingbee = "^2.0.2"
 redis = "^7.0.1"
+ipykernel = "^7.2.0"
+langgraph = "1.0.2"
+ddgs = ">=9.9.1"
+langchain-tavily = ">=0.2.13"
+ragas = "^0.4.3"
+structlog = ">=24.4.0"
 
 
 [build-system]
